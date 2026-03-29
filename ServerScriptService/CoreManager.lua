@@ -8,7 +8,7 @@ local HttpService = game:GetService("HttpService")
 
 local GameData = require(ReplicatedStorage:WaitForChild("GameData"))
 
-local AvatarDataStore = DataStoreService:GetDataStore("AvatarDataStore")
+local AvatarDataStore = DataStoreService:GetDataStore("Passione")
 
 local spawnEvent = Instance.new("RemoteEvent")
 spawnEvent.Name = "RequestSpawn"
